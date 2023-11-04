@@ -6,8 +6,9 @@ kubectl get pods # It will fetch the pods in the default namespace
 kubectl get pods -n my-first-namespace # Gets the pods in my-first-namespace
 kubectl get pods -A
 kubectl get pods --all-namespaces
-```
 
+```
+Jagan
 ### Pods
 ```bash
 kubectl run nginx --image nginx
